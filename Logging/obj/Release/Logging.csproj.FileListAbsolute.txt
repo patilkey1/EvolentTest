@@ -1,0 +1,20 @@
+F:\Projects\HealthBridgeWorkspace\BridgeIT\Development\Logging\bin\Release\Logging.dll.config
+F:\Projects\HealthBridgeWorkspace\BridgeIT\Development\Logging\bin\Release\Logging.dll
+F:\Projects\HealthBridgeWorkspace\BridgeIT\Development\Logging\bin\Release\Logging.pdb
+F:\Projects\HealthBridgeWorkspace\BridgeIT\Development\Logging\bin\Release\EntityFramework.dll
+F:\Projects\HealthBridgeWorkspace\BridgeIT\Development\Logging\bin\Release\EntityFramework.SqlServer.dll
+F:\Projects\HealthBridgeWorkspace\BridgeIT\Development\Logging\bin\Release\EntityFramework.xml
+F:\Projects\HealthBridgeWorkspace\BridgeIT\Development\Logging\bin\Release\EntityFramework.SqlServer.xml
+F:\Projects\HealthBridgeWorkspace\BridgeIT\Development\Logging\obj\Release\Logging.csprojResolveAssemblyReference.cache
+F:\Projects\HealthBridgeWorkspace\BridgeIT\Development\Logging\obj\Release\Logging.dll
+F:\Projects\HealthBridgeWorkspace\BridgeIT\Development\Logging\obj\Release\Logging.pdb
+F:\Sample Projects\EVO\EvolentTest\Logging\bin\Release\Logging.dll.config
+F:\Sample Projects\EVO\EvolentTest\Logging\bin\Release\Logging.dll
+F:\Sample Projects\EVO\EvolentTest\Logging\bin\Release\Logging.pdb
+F:\Sample Projects\EVO\EvolentTest\Logging\bin\Release\EntityFramework.dll
+F:\Sample Projects\EVO\EvolentTest\Logging\bin\Release\EntityFramework.SqlServer.dll
+F:\Sample Projects\EVO\EvolentTest\Logging\bin\Release\EntityFramework.xml
+F:\Sample Projects\EVO\EvolentTest\Logging\bin\Release\EntityFramework.SqlServer.xml
+F:\Sample Projects\EVO\EvolentTest\Logging\obj\Release\Logging.csprojResolveAssemblyReference.cache
+F:\Sample Projects\EVO\EvolentTest\Logging\obj\Release\Logging.dll
+F:\Sample Projects\EVO\EvolentTest\Logging\obj\Release\Logging.pdb

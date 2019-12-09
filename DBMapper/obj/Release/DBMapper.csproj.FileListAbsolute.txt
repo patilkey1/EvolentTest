@@ -1,0 +1,14 @@
+F:\Sample Projects\EVO\EvolentTest\DBMapper\bin\Release\DBMapper.dll.config
+F:\Sample Projects\EVO\EvolentTest\DBMapper\bin\Release\DBMapper.dll
+F:\Sample Projects\EVO\EvolentTest\DBMapper\bin\Release\DBMapper.pdb
+F:\Sample Projects\EVO\EvolentTest\DBMapper\bin\Release\EntityFramework.dll
+F:\Sample Projects\EVO\EvolentTest\DBMapper\bin\Release\EntityFramework.SqlServer.dll
+F:\Sample Projects\EVO\EvolentTest\DBMapper\bin\Release\EntityFramework.xml
+F:\Sample Projects\EVO\EvolentTest\DBMapper\bin\Release\EntityFramework.SqlServer.xml
+F:\Sample Projects\EVO\EvolentTest\DBMapper\obj\Release\DBMapper.Migrations.AddedContactInfoModel.resources
+F:\Sample Projects\EVO\EvolentTest\DBMapper\obj\Release\DBMapper.Migrations.AlteredContactInfoModel.resources
+F:\Sample Projects\EVO\EvolentTest\DBMapper\obj\Release\DBMapper.Migrations.AlteredContactInfoModel1.resources
+F:\Sample Projects\EVO\EvolentTest\DBMapper\obj\Release\DBMapper.Migrations.AddedPropertiesContactInfoModel.resources
+F:\Sample Projects\EVO\EvolentTest\DBMapper\obj\Release\DBMapper.csproj.GenerateResource.Cache
+F:\Sample Projects\EVO\EvolentTest\DBMapper\obj\Release\DBMapper.dll
+F:\Sample Projects\EVO\EvolentTest\DBMapper\obj\Release\DBMapper.pdb

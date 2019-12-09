@@ -1,0 +1,14 @@
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\bin\Release\PortalHelper.dll.config
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\bin\Release\PortalHelper.dll
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\bin\Release\PortalHelper.pdb
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\bin\Release\DBMapper.dll
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\bin\Release\EntityFramework.dll
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\bin\Release\EntityFramework.SqlServer.dll
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\bin\Release\Logging.dll
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\bin\Release\DBMapper.pdb
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\bin\Release\Logging.pdb
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\bin\Release\EntityFramework.xml
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\bin\Release\EntityFramework.SqlServer.xml
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\obj\Release\PortalLibrary.csprojResolveAssemblyReference.cache
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\obj\Release\PortalHelper.dll
+F:\Sample Projects\EVO\EvolentTest\PortalHelper\obj\Release\PortalHelper.pdb

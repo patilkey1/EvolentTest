@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="../Scripts/angular.js"></script>
+    <script src="../app/app.js" asp-append-version="true"></script>
+    <script src="../Scripts/config.js" asp-append-version="true"></script>
+    <script src="../Scripts/angular-ui-router.js" asp-append-version="true"></script>
+    <script src="../app/components/Contact/controllers/contactController.js" asp-append-version="true"></script>
+    <script src="../app/components/Contact/services/contactService.js" asp-append-version="true"></script>
+    <link href="../Scripts/bootstrap-theme.css" rel="stylesheet" />
+    <link href="../Scripts/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="../Scripts/bootstrap.css" rel="stylesheet" />
+    <link href="../Scripts/bootstrap.min.css" rel="stylesheet" />
+    <title>Add Contact</title>
+</head>
+<body ng-app="app" ng-controller="contactController" ng-init="CheckEditable()">
+    <loading ng-show="loadingStatusV2"></loading>
+    <!-- BEGIN FORM-->
+    <form class="form-horizontal" name="registerForm" novalidate>
+        <div class="form-body">
+            <div class="form-group">
+                <label class="col-md-3 control-label">First Name </label>
+                <div class="col-md-6" ng-class="{ 'has-error' : registerForm.firstName.$invalid && (registerForm.firstName.$dirty || submitted)}">
+                    <input class="form-control" ng-minlength="4" ng-readonly="existingUser" ng-maxlength="25" type="text" ng-model="firstName" name="firstName" placeholder="Enter firstName" ng-required="true" autocomplete="off" />
+                    <span class="req" style="color:red" ng-show="registerForm.firstName.$error.required && (registerForm.firstName.$dirty || submitted)">Username is required.</span>
+                    <span class="req" style="color:red" ng-show="registerForm.firstName.$error.minlength && submitted">Minimum four character required.</span>
+                    <span class="req" style="color:red" ng-show="registerForm.firstName.$error.maxlength && submitted">Maximum fifteen character required.</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">Last Name </label>
+                <div class="col-md-6" ng-class="{ 'has-error' : registerForm.lastName.$invalid && (registerForm.lastName.$dirty || submitted)}">
+                    <input class="form-control" ng-minlength="4" ng-readonly="existingUser" ng-maxlength="25" type="text" ng-model="lastName" name="lastName" placeholder="Enter lastName" ng-required="true" autocomplete="off" />
+                    <span class="req" style="color:red" ng-show="registerForm.lastName.$error.required && (registerForm.lastName.$dirty || submitted)">Username is required.</span>
+                    <span class="req" style="color:red" ng-show="registerForm.lastName.$error.minlength && submitted">Minimum four character required.</span>
+                    <span class="req" style="color:red" ng-show="registerForm.lastName.$error.maxlength && submitted">Maximum fifteen character required.</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">Email Address</label>
+                <div class="col-md-6" ng-class="{'has-error' : registerForm.Email.$invalid && registerForm.Email.$error.pattern && (registerForm.Email.$dirty || submitted) || registerForm.Email.$error.maxlength }">
+                    <input class="form-control" type="text" ng-maxlength="100" ng-model="Email" ng-pattern="emailFormat" name="Email" placeholder="Email address" ng-required="true" autocomplete="off" />
+                    <span class="req" style="color:red" ng-show="registerForm.Email.$error.required && (registerForm.Email.$dirty || submitted) && submitted">Email is required.</span>
+                    <div ng-show="registerForm.Email.$error.pattern && (registerForm.Email.$dirty || submitted)  && submitted"><span class="req" style="color:red">Please enter valid email address.</span><br /></div>
+                    <span class="req" style="color:red" ng-show="registerForm.Email.$error.maxlength && submitted">You are exceeding character limit.</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">Phone Number</label>
+                <div class="col-md-6" ng-class="{'has-error' : registerForm.PhoneNumber.$error.pattern}">
+                    <input class="form-control" type="text" ng-model="PhoneNumber" ng-pattern="phoneno" name="PhoneNumber" placeholder="Phone number" autocomplete="off" />
+                    <span class="req" style="color:red" ng-show="registerForm.PhoneNumber.$error.pattern && submitted">Please Enter Valid Phone Number.</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">Is Active</label>
+                <div class="col-md-6">
+                    <input class="form-control" type="checkbox" checked="checked" ng-click="UpdateActive(isActive)" ng-model="isActive" name="isActive" style="width:17px;" />
+                </div>
+            </div>
+        </div>
+        <div class="form-actions">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-9">
+                    <button type="submit" class="btn orange" ng-click="AddContactInfo()">Submit</button>
+                    &nbsp;
+                    <button type="button" class="btn default" ng-click="Cancel()">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- END FORM-->
+</body>
+</html>
