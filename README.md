@@ -1,4 +1,4 @@
-# EvolentTest
+# .NET Application Evolent Exercise
 
 This is the project to demonstarate storage of contact information
 
